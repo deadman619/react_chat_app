@@ -11,12 +11,12 @@ const firebase = require("firebase");
 require("firebase/firestore");
 firebase.initializeApp({
 	apiKey: "AIzaSyBJK-I9quVoxqODTns4HYogZRrMpV14yK8",
-    authDomain: "chat-app-afbe4.firebaseapp.com",
-    databaseURL: "https://chat-app-afbe4.firebaseio.com",
-    projectId: "chat-app-afbe4",
-    storageBucket: "chat-app-afbe4.appspot.com",
-    messagingSenderId: "816896774609",
-    appId: "1:816896774609:web:cd0365ba086f1e48"
+    	authDomain: "chat-app-afbe4.firebaseapp.com",
+    	databaseURL: "https://chat-app-afbe4.firebaseio.com",
+    	projectId: "chat-app-afbe4",
+    	storageBucket: "chat-app-afbe4.appspot.com",
+    	messagingSenderId: "816896774609",
+    	appId: "1:816896774609:web:cd0365ba086f1e48"
 });
 
 const routing = (
